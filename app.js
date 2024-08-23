@@ -42,7 +42,7 @@ async function generateCardBackground(cardNumber, expiryDate, cardHolder) {
     // Dibujar el nombre del titular
     ctx.font = '25px Arial'; // Fuente y tamaño del texto
     ctx.fillStyle = '#ffffff'; // Color blanco para el texto
-    ctx.fillText(`Titular: ${cardHolder}`, canvas.width / 5, 400); // Posición y texto
+    ctx.fillText(`${cardHolder}`, canvas.width / 5, 400); // Posición y texto
 
     return canvas.toBuffer(); // Devolver el buffer de la imagen generada
 }
