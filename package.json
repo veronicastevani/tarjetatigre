@@ -8,12 +8,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
-    "canvas": "^2.11.2",
+    "canvas": "^3.2.3",
     "cors": "2.8.5",
     "express": "^4.19.2",
-    "fs": "^0.0.1-security",
-    "node": "^20.15.0",
     "node-fetch": "^3.3.2"
   },
   "description": "",
